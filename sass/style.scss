@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+
+.logofondo{
+ 
+  position:absolute; 
+  background:rgba(0,0,0,0.6);
+  filter: brightness(70%);
+  z-index:-1;
+
+  img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+}
+
+#btn{
+  color:white;
+  font-family: 'Maven Pro', sans-serif;;
+  background-color: rgb(228,12,52);
+  border-radius: 5px;
+  padding-top:5px;
+  padding-left:7px;
+  font-size:14px;
+  font-weight:bold;
+}
+
+#btn:hover {
+  background-color: rgb(255, 89, 120);
+}
+
+
+.menu {
+  display: flex;
+  height: 110px;
+  align-items: center;
+}
+
+#menu-izquierdo{
+ 
+  flex: 1 1 160px;
+
+    img{
+      margin-left: 130px;
+      width: 50px;
+      height: 50px;
+      background-size: 25px 25px;
+    }
+
+    :hover {
+      border-radius: 5px white;
+      opacity: 0.90;
+    }
+
+    img:hover{
+      background-color: white;
+      border-radius: 20px
+    }
+}
+
+
+
+#menu-derecho{
+   
+  flex: 1 1 320px;
+ 
+  li{
+    margin-left: 30px;
+    display: inline;
+    padding: 5px;
+  }
+
+  .btn-menu{
+    padding: 12px 5px 8px 9px;
+    border-radius: 5px;
+    background-color: rgb(228, 12, 52);    
+  }
+
+ 
+  .btn-menu:hover {
+    background-color: rgb(253, 32, 73); 
+    a{
+      color: white;
+    }
+  
+  } 
+
+  a{
+    font-size: 18px;
+    color:white;
+    font-family: 'Maven Pro', sans-serif ;
+    font-weight:bold;
+  }
+
+  li:hover {
+    background-color: white;
+    border-radius: 5px ;
+    a {
+      color:red;
+    }
+  }
+
+}
+
+
+
+
+.content {
+  display:flex;
+  flex-direction: column;
+  margin-top: 42px;
+  .element-content {
+    height: 100px;
+    width: 80%;
+    align-self: center;
+  }
+
+  #titulo {
+   
+    h1 {
+      font-family: 'Maven Pro', sans-serif;
+      color: white;
+      font-weight:bold;
+    }
+    
+  }
+
+  #contenido{
+      padding-top:20px;
+      h4 {
+
+        color:white;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight:bold;
+        font-size: 19px;
+        
+      }
+
+    
+
+      #btn {
+        margin-top: 35px;
+        padding: 12px 9px 8px 18px;
+        width: 120px;
+        height: 40px;
+        align-self: center;
+        
+      }
+    
+  }
+
+
+}
+
+
+ 
+
+
+#row-car {
+  display: flex;
+  justify-content: flex-end;
+  margin-top:120px;
+  .element-car{
+ 
+    width: 220px;
+    margin: 10px;
+    display: inline-block;
+  
+    .carritos {
+      .car{
+        margin-left: 40px;       
+        width: 100%;  
+        border: 2px solid rgb(228,12,52);
+        border-radius:5px;
+      }
+    
+      .car:hover{
+        opacity: 0.85 ;
+        filter: brightness(70%);
+      }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logofondo {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  filter: brightness(70%);
+  z-index: -1;
+}
+.logofondo img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#btn {
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  background-color: #e40c34;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 7px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#btn:hover {
+  background-color: #ff5978;
+}
+
+.menu {
+  display: flex;
+  height: 110px;
+  align-items: center;
+}
+
+#menu-izquierdo {
+  flex: 1 1 160px;
+}
+#menu-izquierdo img {
+  margin-left: 130px;
+  width: 50px;
+  height: 50px;
+  background-size: 25px 25px;
+}
+#menu-izquierdo :hover {
+  border-radius: 5px white;
+  opacity: 0.9;
+}
+#menu-izquierdo img:hover {
+  background-color: white;
+  border-radius: 20px;
+}
+
+#menu-derecho {
+  flex: 1 1 320px;
+}
+#menu-derecho li {
+  margin-left: 30px;
+  display: inline;
+  padding: 5px;
+}
+#menu-derecho .btn-menu {
+  padding: 12px 5px 8px 9px;
+  border-radius: 5px;
+  background-color: #e40c34;
+}
+#menu-derecho .btn-menu:hover {
+  background-color: #fd2049;
+}
+#menu-derecho .btn-menu:hover a {
+  color: white;
+}
+#menu-derecho a {
+  font-size: 18px;
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: bold;
+}
+#menu-derecho li:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+#menu-derecho li:hover a {
+  color: red;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+}
+.content .element-content {
+  height: 100px;
+  width: 80%;
+  align-self: center;
+}
+.content #titulo h1 {
+  font-family: "Maven Pro", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.content #contenido {
+  padding-top: 20px;
+}
+.content #contenido h4 {
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+}
+.content #contenido #btn {
+  margin-top: 35px;
+  padding: 12px 9px 8px 18px;
+  width: 120px;
+  height: 40px;
+  align-self: center;
+}
+
+#row-car {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 120px;
+}
+#row-car .element-car {
+  width: 220px;
+  margin: 10px;
+  display: inline-block;
+}
+#row-car .element-car .carritos .car {
+  margin-left: 40px;
+  width: 100%;
+  border: 2px solid #e40c34;
+  border-radius: 5px;
+}
+#row-car .element-car .carritos .car:hover {
+  opacity: 0.85;
+  filter: brightness(70%);
+}
+
+/*# sourceMappingURL=style.css.map */
